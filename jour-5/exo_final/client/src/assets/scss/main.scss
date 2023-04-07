@@ -1,0 +1,38 @@
+/* Style pour les étiquettes */
+label {
+  display: block; /* mettre chaque label sur une ligne séparée */
+  font-weight: bold; /* mettre le texte en gras */
+  margin-top: 10px; /* ajouter un peu d'espace en haut */
+}
+
+/* Style pour les champs de saisie */
+input[type="text"],
+input[type="date"] {
+  display: block; /* mettre chaque champ de saisie sur une ligne séparée */
+  margin-bottom: 10px; /* ajouter un peu d'espace en bas */
+  padding: 5px; /* ajouter un peu d'espace autour du texte */
+  width: 100%; /* étendre le champ de saisie à la largeur de son conteneur */
+  box-sizing: border-box; /* inclure le rembourrage et la bordure dans la largeur totale */
+  border: 1px solid #ccc; /* ajouter une bordure */
+  border-radius: 4px; /* ajouter un peu de courbure aux coins */
+}
+
+/* Style pour le bouton de soumission */
+button[type="submit"] {
+  background-color: #4CAF50; /* choisir une couleur de fond */
+  border: none; /* supprimer la bordure */
+  color: white; /* mettre le texte en blanc */
+  padding: 10px 20px; /* ajouter un peu d'espace autour du texte */
+  text-align: center; /* centrer le texte */
+  text-decoration: none; /* supprimer les soulignements */
+  display: inline-block; /* afficher le bouton sur une ligne avec le texte */
+  font-size: 16px; /* choisir une taille de police */
+  margin-top: 10px; /* ajouter un peu d'espace en haut */
+  cursor: pointer; /* changer le curseur de souris au survol */
+  border-radius: 4px; /* ajouter un peu de courbure aux coins */
+}
+
+/* Style pour le survol du bouton de soumission */
+button[type="submit"]:hover {
+  background-color: #45a049; /* choisir une couleur de fond plus foncée */
+}
